@@ -1,0 +1,9 @@
+body {
+  background-color: #2A2C2F;
+  color: white;
+}
+.page {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  margin: 0 auto;
+}

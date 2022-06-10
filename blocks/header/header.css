@@ -1,0 +1,14 @@
+.header {
+  min-height: 52px;
+  padding: 28px 48px 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 760px) {
+  .header {
+    padding: 16px 16px 48px;
+  }
+}

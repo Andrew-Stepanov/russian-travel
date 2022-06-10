@@ -1,0 +1,15 @@
+.header__lang-link {
+  margin: 0 18px 0 0;
+  padding: 0;
+}
+
+.header__lang-link:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 760px) {
+  .header__lang-links {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
