@@ -18,6 +18,15 @@
   font-weight: bold;
 }
 
+@font-face {
+  src:
+    url(../fonts/Inter/Inter-Bold.ttf) format('ttf'),
+    url(../fonts/Inter/Inter-Bold.woff2) format('woff2');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+}
+
 
 
 

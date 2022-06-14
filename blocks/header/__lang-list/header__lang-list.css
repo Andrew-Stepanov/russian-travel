@@ -1,0 +1,17 @@
+.header__lang-list {
+  margin: 0 12px 0 0;
+  padding: 0;
+  display: inline;
+}
+
+.header__lang-list:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 760px) {
+  .header__lang-list {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 14px 0 0;
+  }
+}
