@@ -16,6 +16,10 @@
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
+/*Сделать по БЕМ*/
 @import url(../blocks/intro/intro.css);
-
+/*Сделать по БЕМ*/
 @import url(../blocks/photo-grid/photo-grid.css);
+/*Сделать по БЕМ*/
+@import url(../blocks/place/place.css);
+
