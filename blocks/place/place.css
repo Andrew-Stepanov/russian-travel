@@ -48,7 +48,7 @@
 }
 
 .places__link:hover {
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 .places__image {
