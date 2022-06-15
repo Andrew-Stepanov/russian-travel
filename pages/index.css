@@ -22,4 +22,6 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 /*Сделать по БЕМ*/
 @import url(../blocks/place/place.css);
+/*Сделать по БЕМ*/
+@import url(../blocks/cover/cover.css);
 

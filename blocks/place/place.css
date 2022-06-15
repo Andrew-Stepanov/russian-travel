@@ -1,7 +1,7 @@
 .places {
   width: 100%;
   max-width: 984px;
-  margin: 0 auto;
+  margin: 0 auto 92px;
 }
 
 .places__place {
@@ -10,6 +10,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(76px, 1fr));
+}
+
+.places__place:last-of-type {
+  margin: 0;
 }
 
 .places__title {
