@@ -1,0 +1,54 @@
+.photo-grid {
+  display: grid;
+  padding: 0 48px;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-rows: repeat(3, minmax(213px, 1fr));
+}
+
+.photo-grid__item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding-top: 75%;
+}
+
+.photo-grid__item_train {
+  background-image: url(../../images/photo-grid-train.jpg);
+}
+.photo-grid__item_atharva-tulsi {
+  background-image: url(../../images/photo-grid-atharva-tulsi.jpg);
+}
+.photo-grid__item_tuman {
+  background-image: url(../../images/photo-grid-tuman-figma.jpg);
+}
+.photo-grid__item_sochi {
+  background-image: url(../../images/photo-grid-sochi.jpg);
+}
+.photo-grid__item_arisa {
+  background-image: url(../../images/photo-grid-arisa.jpg);
+}
+.photo-grid__item_baikal {
+  background-image: url(../../images/photo-grid-baikal.jpg);
+}
+.photo-grid__item_elbrus {
+  background-image: url(../../images/photo-grid-elbrus.jpg);
+}
+.photo-grid__item_kondratiev {
+  background-image: url(../../images/photo-grid-kondratiev.jpg);
+}
+.photo-grid__item_kamchatka-1 {
+  background-image: url(../../images/photo-grid-kamchatka-1.jpg);
+}
+.photo-grid__item_kamchatka-2 {
+  background-image: url(../../images/photo-grid-kamchatka-2.jpg);
+}
+.photo-grid__item_baikal-2 {
+  background-image: url(../../images/photo-grid-baikal-2.jpg);
+}
+.photo-grid__item_ergaki {
+  background-image: url(../../images/photo-grid-ergaki.jpg);
+}
+
+
+
