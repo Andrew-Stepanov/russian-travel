@@ -1,19 +1,19 @@
-.intro {
-  margin: 92px auto 92px;
+.places {
   width: 90.5%;
   max-width: 984px;
+  margin: 0 auto 92px;
 }
 
 @media screen and (max-width: 1020px) {
-  .intro {
-    margin: 92px 24px 92px;
+  .places {
+    margin: 0 24px 90px;
     width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 760px) {
-  .intro {
-    margin: 63px 16px 63px;
-    width: calc(100% - 32px);
+  .places {
+    margin: 0 auto 66px;
+    width: 100%;
   }
 }

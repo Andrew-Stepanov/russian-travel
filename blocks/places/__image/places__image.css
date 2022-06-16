@@ -1,0 +1,14 @@
+.places__image {
+  width: 95%;
+  object-fit: contain;
+}
+@media screen and (max-width: 1270px) {
+  .places__image {
+    width: 97%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .places__image {
+    width: 100%;
+  }
+}
