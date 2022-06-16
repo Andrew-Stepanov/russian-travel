@@ -1,13 +1,20 @@
 .intro {
   margin: 92px auto 92px;
-  width: 100%;
+  width: 90.5%;
   max-width: 984px;
+}
+
+@media screen and (max-width: 1020px) {
+  .intro {
+    margin: 92px 24px 92px;
+    width: calc(100% - 48px);
+  }
 }
 
 @media screen and (max-width: 760px) {
   .intro {
     margin: 63px 16px 63px;
-    width: calc(100vw - 32px);
+    width: calc(100% - 32px);
   }
 }
 
@@ -32,7 +39,9 @@
 }
 @media screen and (max-width: 760px) {
   .intro__text {
-
+    font-size: 16px;
+    line-height: 163%;
+    /* or 26px */
   }
 }
 
@@ -46,12 +55,4 @@
 
 .intro__list_bold {
   font-weight: 600;
-}
-
-
-
-
-@media screen and (max-width: 760px) {
-  .intro {
-  }
 }

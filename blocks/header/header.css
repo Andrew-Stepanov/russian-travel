@@ -7,6 +7,16 @@
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 1270px) {
+  .header {
+    padding: 28px 48px 48px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .header {
+    padding: 28px 24px 48px;
+  }
+}
 @media screen and (max-width: 760px) {
   .header {
     padding: 5px 16px 48px;
