@@ -4,12 +4,24 @@
   position: relative;
 
 }
+@media screen and (max-width: 760px) {
+  .cover {
+    margin: 0 0 64px;
+  }
+}
 .cover__text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
+}
+
+@media screen and (max-width: 760px) {
+  .cover__text {
+    width: 288px;
+    padding: 0 16px 0;
+  }
 }
 
 .cover__title {
@@ -20,6 +32,15 @@
   font-weight: bold;
   max-width: 560px;
 }
+@media screen and (max-width: 760px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 0 16px;
+  }
+}
+
+
 .cover__subtitle {
   margin: 0px auto;
   max-width: 360px;
@@ -27,6 +48,13 @@
   line-height: 22px;
   text-align: center;
 }
+@media screen and (max-width: 760px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
 .cover__overlay {
   background-color: #2A2C2F;
   opacity: 0.3;
