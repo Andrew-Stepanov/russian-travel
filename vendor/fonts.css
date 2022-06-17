@@ -15,7 +15,7 @@
     url(../fonts/Inter/Inter-Black.woff) format('woff');
   font-family: 'Inter';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 @font-face {
@@ -24,7 +24,7 @@
     url(../fonts/Inter/Inter-Bold.woff2) format('woff2');
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 
