@@ -1,8 +1,0 @@
-.cover__bacground {
-  background-image: url(../../../images/cover-trains.jpg);
-  background-size: cover;
-  max-width: 1184px;
-  margin: 0 auto;
-  min-height: calc(0.625 * min(1184px, 100vw));
-  z-index: -1;
-}
