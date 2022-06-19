@@ -2,8 +2,9 @@
   text-decoration: none;
   color: #fff;
   z-index: 3;
-}
-
-.cover__link:hover {
-  opacity: 0.8;
+  width: 100%;
+  min-height: calc(0.625 * min(1184px, 100vw));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
